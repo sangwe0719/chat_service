@@ -1,0 +1,177 @@
+body {
+    background-image: url(/static/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.restart {
+    text-align: center;
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+
+.header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+}
+
+.entry_number {
+    font-size: 30px;
+    color: red;
+}
+
+.entry-box {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    border-color: rgb(197, 224, 248);
+    width: 300px;
+    box-shadow: 0px 0px 18px black;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+.btn_font {
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.chat-list {
+    justify-content: center;
+    text-align: center;
+    background-image: url(/static/background-gd1aa598c4_1920.png);
+    background-color: white;
+    background-size: 400px;
+    height: 500px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.chat-list div {
+    margin-top: 3px;
+  }
+  
+  .chat-list div div {
+    display: inline-block;
+    padding: 3px;
+  }
+
+.my-chat {
+  text-align: right;
+}
+
+.other-chat{
+    text-align: left;
+}
+
+.my-chat div{
+    background-color: #fff46d;
+    border-radius: 14px 14px 0px 14px;
+    padding: 7px 15px 7px 15px;
+    margin: 5px 0;
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.other-chat div {
+    background-color: black;
+    color: white;
+    border-radius: 14px 14px 14px 0px;
+    padding: 7px 15px 7px 15px;
+    margin: 5px 0;
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.text-box {
+    display: flex;
+    flex: 1;
+}
+
+.send_btn {
+    background-color: #fff46d;
+    border: none;
+    height: 100%;
+    border-radius: 3px;
+}
+
+.font_style {
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px
+}
+
+.nickname {
+    display: row-reverse;
+}
+
+.nickname_font {
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px
+}
+
+.span {
+    background-color: white;
+}
+
+
+/* [실습 3] */
+
+.notice {
+    text-align:center;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    font-family: "gamja-flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.d-none {
+    display: none;
+}
+
+.secret-chat div{
+    background-color: pink;
+    color: black;
+  }
+
+  @media screen and (max-width: 990px) {
+        .chat-box {
+            margin: auto;
+        }
+  }
